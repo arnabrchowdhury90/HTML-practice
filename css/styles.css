@@ -1,4 +1,86 @@
-body{
-    max-width: 950px;
+body {
+    max-width: 960px;
+    background-color: #363433;
     margin:0 auto;
-}
+  }
+  header{border:2px solid #363535;}
+  .login-conatainer{
+    margin-left: 517px;
+    padding: 7px;
+  }
+  .login {
+    background-color: #323131;
+    padding: 2px;
+    margin-left: auto;
+    border-bottom:2px solid #262525;
+  }
+  input {
+    display: inline;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 1px;
+  }
+  .login-form {
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+  }
+  .login-btn {position: absolute;height: 25px;}
+  .navbar {
+    display: flex;
+    background-color:transparent;
+    padding: 12px 12px;
+    border-bottom:1px solid #262525; 
+  }
+  .div-nav{margin-left: auto }
+    .list-tab  {
+    background-color:transparent;
+    list-style-type: none;
+    text-decoration:none;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   }
+  .list-tab a {
+    display:block;
+    font-size: 15px;
+    text-align:center;
+    padding: 12px 12px;
+    text-decoration:none;
+    color: #e5a923;
+  }
+  li{float:left;}
+  li a:hover{ background-color: #232222;}
+  .center-img{border:2px solid #363535;}
+  .img{
+    width: 671px;
+    height: 211px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 0px solid #363433;
+    border-radius: 12px;
+  }
+  .main-content{border:2px solid #363535;
+    display:flex;
+    margin-left:auto;
+  }
+  h3{color:#e5a923;font-style: normal;}
+  h4{color:aliceblue;font-style: normal;}
+  .first-box{max-width:300px;}
+  .block{
+    display:flex;
+    border:3px solid #232222;
+    max-width:300px;
+    padding: 0px;
+    color:aliceblue;
+    font-size: x-small;
+  }
+  .more-btn{
+    max-width:300px;
+    margin: 20px 206px;
+  }
