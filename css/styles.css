@@ -2,6 +2,7 @@ body {
     max-width: 960px;
     background-color: #363433;
     margin:0 auto;
+    border:#232222;
   }
   header{border:2px solid #363535;}
   .login-conatainer{
@@ -30,7 +31,7 @@ body {
   .navbar {
     display: flex;
     background-color:transparent;
-    padding: 12px 12px;
+    padding: 12px 0px;
     border-bottom:1px solid #262525; 
   }
   .div-nav{margin-left: auto }
@@ -55,7 +56,7 @@ body {
   li a:hover{ background-color: #232222;}
   .center-img{border:2px solid #363535;}
   .img{
-    width: 671px;
+    width: 950px;
     height: 211px;
     display: block;
     margin-left: auto;
@@ -71,16 +72,34 @@ body {
   }
   h3{color:#e5a923;font-style: normal;}
   h4{color:aliceblue;font-style: normal;}
-  .first-box{max-width:300px;}
+  .first-box{max-width:245px; float:left;}
   .block{
     display:flex;
     border:3px solid #232222;
-    max-width:300px;
-    padding: 0px;
+    padding:2px 0px 2px 2px;
     color:aliceblue;
     font-size: x-small;
   }
+  .text{padding:2px 0px 2px 6px;text-align: justify;color:#f8f4f4;font-style: italic;font-size: x-small;}
   .more-btn{
     max-width:300px;
-    margin: 20px 206px;
+    margin: 11px 147px;
   }
+  .second-box{max-width: 288px;
+  display:flex;flex-direction:column;margin: 0px 0px 20px 69px;}
+  .block1{border:3px solid #232222;}
+  .text-box{margin-bottom: 60px;text-align: justify;color:#f8f4f4;font-style: italic;font-size: small}
+
+  
+  .yellow-color{
+    color:#e5a923;
+    text-align: justify;
+
+  }
+  .list{
+    list-style-type: none;
+    display:inline-grid;
+  }
+  .footer{max-width: 960px;display:flex;background-color: #232222;border-top: 2px solid black;}
+  .column1{margin-left: 20px;width:300px;font-style:italic;color:#e5a923;font-size: x-small;}
+  .border{border-bottom:1px dotted #e5a923;float:left; }
