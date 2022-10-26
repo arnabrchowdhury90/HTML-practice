@@ -103,3 +103,16 @@ body {
   .footer{max-width: 960px;display:flex;background-color: #232222;border-top: 2px solid black;}
   .column1{margin-left: 20px;width:300px;font-style:italic;color:#e5a923;font-size: x-small;}
   .border{border-bottom:1px dotted #e5a923;float:left; }
+@media screen and (max-width: 667px){
+ body{max-width: 650px;    margin: 0 auto;}
+.login{display: none;
+}
+.div-nav{display: none;}
+.navbar{ padding: 0;}
+.logo{ margin: 10px auto;}
+.img{width: 100%;}
+.main-content{display: inline-grid;}
+.first-box{width: 100%;}
+.second-box { width: 100%;margin: 0 auto;}
+.block1{border: none;}
+}
